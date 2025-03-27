@@ -15,6 +15,8 @@ II. Constructs a heterogeneous graph using NetworkX:
   1. Nodes: Assets, Vulnerabilities, Attack Vectors, Threat Actors
   2. Edges: Relationships like has_vulnerability, exploited_by, targets, and uses, with edge attributes like CVSS, exploit probability, and targeting probability.
 
+![image](https://github.com/user-attachments/assets/31b0f13a-a9ad-4ccb-823e-236a180157f2)
+
 ### Step 2: Visualize the Graph (Graph Construction)
    1. Nodes are colored by type
    2. Edges are labeled by relation
