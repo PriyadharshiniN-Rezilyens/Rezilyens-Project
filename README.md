@@ -6,14 +6,14 @@ This project performs risk assessment of organizational assets using graph-based
 ### Step 1: Load and Build the Graph
 
 I. Loads 4 CSV datasets:
-      1. Asset–Vulnerability mapping
-      2. Vulnerability–Attack Vector mapping
-      3. Threat Actor–Asset targeting
-      4. Threat Actor–Attack Vector usage
+  1. Asset–Vulnerability mapping
+  2. Vulnerability–Attack Vector mapping
+  3. Threat Actor–Asset targeting
+  4. Threat Actor–Attack Vector usage
       
 II. Constructs a heterogeneous graph using NetworkX:
-      1. Nodes: Assets, Vulnerabilities, Attack Vectors, Threat Actors
-      2. Edges: Relationships like has_vulnerability, exploited_by, targets, and uses, with edge attributes like CVSS, exploit probability, and targeting probability.
+  1. Nodes: Assets, Vulnerabilities, Attack Vectors, Threat Actors
+  2. Edges: Relationships like has_vulnerability, exploited_by, targets, and uses, with edge attributes like CVSS, exploit probability, and targeting probability.
 
 ### Step 2: Visualize the Graph (Graph Construction)
    1. Nodes are colored by type
