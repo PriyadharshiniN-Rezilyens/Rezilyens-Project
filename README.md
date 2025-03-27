@@ -39,7 +39,7 @@ iii)Ranks assets from most to least risky
 
 ### How to Run
    1. Clone the repo and place the 4 CSV files into the "/dataset" folder.
-   2. Run "Project-1" or your notebook.
+   2. Run "Project-1.ipynb" or your notebook.
    3. View graphs and generated risk ranking file "asset_risk_analysis.csv".
 
 ### Top Risky Assets (Sample Output)
