@@ -1,7 +1,4 @@
 networkx
-
 matplotlib
-
 pandas
-
 python-louvain
