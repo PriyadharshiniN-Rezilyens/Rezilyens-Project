@@ -37,12 +37,12 @@ iii)Ranks assets from most to least risky
   2. Top 5 risky assets are highlighted in red
   3. Makes prioritization of high-risk assets easy
 
-## How to Run
-   1. Clone the repo and place the 4 CSV files into the /dataset folder.
-   2. Run risk_analysis.py or your notebook.
-   3. View graphs and generated risk ranking file asset_risk_analysis.csv.
+### How to Run
+   1. Clone the repo and place the 4 CSV files into the "/dataset" folder.
+   2. Run "Project-1" or your notebook.
+   3. View graphs and generated risk ranking file "asset_risk_analysis.csv".
 
-## Top Risky Assets (Sample Output)
+### Top Risky Assets (Sample Output)
 
 | Asset | Cluster ID | Risk Score |
 |-------|------------|------------|
@@ -51,3 +51,5 @@ iii)Ranks assets from most to least risky
 | WebApp-05	| 3	| 2.0597 |
 | Server-02 |	1 |	2.0415 |
 | Server-01 | 5	| 2.0398 |
+
+
