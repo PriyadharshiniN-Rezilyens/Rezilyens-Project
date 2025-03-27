@@ -1,0 +1,26 @@
+Threat Actor,Asset,Target Probability
+Insider,Server-01,0.4
+External Hacker,WebApp-01,0.7
+Insider,Database-01,0.3
+External Hacker,Workstation-01,0.5
+Insider,Server-02,0.45
+Insider,WebApp-02,0.5
+Insider,IoTDevice-01,0.2
+External Hacker,Workstation-02,0.6
+External Hacker,Server-03,0.55
+External Hacker,IoTDevice-02,0.45
+Insider,Server-04,0.35
+External Hacker,WebApp-03,0.75
+Insider,IoTDevice-03,0.25
+External Hacker,Database-02,0.65
+Insider,WebApp-04,0.4
+Insider,Workstation-03,0.5
+External Hacker,Server-05,0.7
+External Hacker,Workstation-04,0.6
+Insider,Database-03,0.35
+External Hacker,IoTDevice-04,0.55
+Insider,Server-06,0.45
+External Hacker,WebApp-05,0.6
+External Hacker,Database-05,0.65
+Insider,IoTDevice-05,0.4
+External Hacker,Server-05,0.7

@@ -1,0 +1,26 @@
+Threat Actor,Attack Vector,Success Rate
+Insider,Phishing,0.35
+External Hacker,SQL Injection,0.6
+External Hacker,Remote Code Execution,0.65
+Insider,Remote Code Execution,0.5
+Insider,SQL Injection,0.4
+External Hacker,Phishing,0.55
+External Hacker,RCE,0.65
+Insider,SQL Injection,0.35
+External Hacker,RCE,0.7
+Insider,SQL Injection,0.5
+Insider,Phishing,0.45
+External Hacker,Phishing,0.6
+Insider,RCE,0.55
+External Hacker,SQL Injection,0.65
+Insider,SQL Injection,0.5
+External Hacker,RCE,0.8
+Insider,Phishing,0.75
+External Hacker,SQL Injection,0.7
+Insider,RCE,0.55
+External Hacker,Phishing,0.45
+Insider,RCE,0.5
+External Hacker,SQL Injection,0.55
+External Hacker,Phishing,0.65
+Insider,SQL Injection,0.75
+External Hacker,RCE,0.45
