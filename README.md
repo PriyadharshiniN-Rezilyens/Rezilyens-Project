@@ -25,13 +25,15 @@ II. Constructs a heterogeneous graph using NetworkX:
   3. Assigns Cluster IDs to nodes for group-based analysis
 
 ### Step 4: Calculate Risk Scores
+
 i)For each Asset, computes:
-      1. Degree and Betweenness Centrality
-      2. Average CVSS of connected vulnerabilities
-      3. Exploit Probability
-      4. Threat Actor Targeting Probability
+  1. Degree and Betweenness Centrality
+  2. Average CVSS of connected vulnerabilities
+  3. Exploit Probability
+  4. Threat Actor Targeting Probability
 
 ii)Uses a weighted formula to calculate a final risk score
+
 iii)Ranks assets from most to least risky
 
 ### Step 5: Visualize Risk Rankings
