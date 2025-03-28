@@ -81,7 +81,7 @@ Cleans the fetched data by:
    iii. Validating IP address formats.
    iv. Converting the data into a structured format using a pandas DataFrame for further analysis.
 
-Code-3: Data Insertion into MongoDB
+3. Data Insertion into MongoDB
    i. Connects to MongoDB Atlas and inserts the cleaned data into a MongoDB database.
    ii. Creates an index on the ip_address field to optimize querying performance.
    iii. NOTE: There is an error in this section related to connecting to MongoDB Atlas. The error might be caused by SSL handshake issues or misconfiguration with the MongoDB connection string.
