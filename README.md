@@ -78,15 +78,15 @@ iii)Ranks assets from most to least risky
 
 2. Data Cleaning and Transformation
    
-Cleans the fetched data by:
-
-   i. Removing duplicates.
+   Cleans the fetched data by:
    
-   ii. Standardizing IP addresses and timestamps.
-   
-   iii. Validating IP address formats.
-   
-   iv. Converting the data into a structured format using a pandas DataFrame for further analysis.
+      i. Removing duplicates.
+      
+      ii. Standardizing IP addresses and timestamps.
+      
+      iii. Validating IP address formats.
+      
+      iv. Converting the data into a structured format using a pandas DataFrame for further analysis.
 
 3. Data Insertion into MongoDB
    
