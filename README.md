@@ -1,4 +1,5 @@
 # Rezilyens-Project - 1
+# Graph-Based Risk Assessment in Cybersecurity Using Community Detection Techniques
 
 ### How to Run
    1. Clone the repo and place the 4 CSV files into the "/dataset" folder.
@@ -65,3 +66,22 @@ iii)Ranks assets from most to least risky
 | Server-01 | 5	| 2.0398 |
 
 
+# Project - 2
+# ETL Pipeline for Cyber Threat Intelligence
+
+## Project Structure
+1. Data Extraction from AbuseIPDB and VirusTotal APIs
+   i. Fetches data from AbuseIPDB and VirusTotal APIs.
+   ii. Retrieves threat intelligence for a given IP address, including abuse reports, confidence scores, and reputation data.
+
+2. Data Cleaning and Transformation
+Cleans the fetched data by:
+   i. Removing duplicates.
+   ii. Standardizing IP addresses and timestamps.
+   iii. Validating IP address formats.
+   iv. Converting the data into a structured format using a pandas DataFrame for further analysis.
+
+Code-3: Data Insertion into MongoDB
+   i. Connects to MongoDB Atlas and inserts the cleaned data into a MongoDB database.
+   ii. Creates an index on the ip_address field to optimize querying performance.
+   iii. NOTE: There is an error in this section related to connecting to MongoDB Atlas. The error might be caused by SSL handshake issues or misconfiguration with the MongoDB connection string.
