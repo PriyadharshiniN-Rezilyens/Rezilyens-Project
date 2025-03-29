@@ -93,9 +93,9 @@ Step-2: Data Logging and Error Handling
 Step-3: Data Output
 After successfully fetching the data, the script logs the returned data from both APIs and provides the following information:
       
-      - AbuseIPDB Data: Includes abuse reports, confidence scores, and related metadata.
+  - AbuseIPDB Data: Includes abuse reports, confidence scores, and related metadata.
       
-      - VirusTotal Data: Includes reputation, analysis stats, and other related security data.
+  - VirusTotal Data: Includes reputation, analysis stats, and other related security data.
       
 If both APIs return valid data, they will be logged to the console, allowing you to review the information for the given IP address.
 
