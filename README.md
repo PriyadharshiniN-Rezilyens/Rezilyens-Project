@@ -88,7 +88,7 @@ Step-2: Data Logging and Error Handling
       
    - Error Handling: The script is designed to handle errors gracefully. If an error occurs (e.g., invalid API key, network issue), it logs the error and continues without crashing.
    
-![image](https://github.com/user-attachments/assets/23f364a9-8140-4a40-8cba-f048f66dfa87)
+![image](https://github.com/user-attachments/assets/cc2c1962-7800-4b39-b288-6ae6a9e822f4)
 
 Step-3: Data Output
 After successfully fetching the data, the script logs the returned data from both APIs and provides the following information:
@@ -98,6 +98,8 @@ After successfully fetching the data, the script logs the returned data from bot
   - VirusTotal Data: Includes reputation, analysis stats, and other related security data.
       
 If both APIs return valid data, they will be logged to the console, allowing you to review the information for the given IP address.
+
+![image](https://github.com/user-attachments/assets/faa33cdb-a750-4635-9eb6-ec0716e72555)
 
 Step-4: save this output in cvs file
 - successfully saved "threat_data_export.csv"
