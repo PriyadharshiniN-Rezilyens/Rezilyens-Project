@@ -66,25 +66,6 @@ iii)Ranks assets from most to least risky
 
 The Cyber Threat Data Fetcher is a Python-based tool that fetches and processes threat intelligence data for a given IP address from two renowned sources: AbuseIPDB and VirusTotal. This tool allows users to retrieve and analyze data about an IP's reputation, abuse history, and other security-related metrics. The collected data can be further processed, logged, or stored for analysis.
 
-## Features
-   1. API Integration: Fetch data from AbuseIPDB and VirusTotal APIs for a specific IP address.
-   
-   2. Data Processing: Parse and process the response data into a structured format for further use.
-   
-   3. Error Handling: Gracefully handles potential errors such as failed API requests and network issues.
-   
-   4. Logging: Log important information, warnings, and errors throughout the execution process, helping you track the status and diagnose issues.
-   
-   5. Flexible Output: While the default output is logged to the console, the tool can easily be extended to store data in a database or export it to files.
-
-## Prerequisites
-To run the project, you need the following:
-
-   i. Python 3.x or later.
-   
-   ii. The requests library (for making HTTP requests).
-   
-   iii. The logging library (for logging the execution process).
 
 ## How It Works
 Step-1: Fetch Data from APIs
