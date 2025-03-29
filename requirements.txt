@@ -1,4 +1,10 @@
+# Project-1:
+
 networkx
 matplotlib
 pandas
 python-louvain
+
+# Project-2:
+
+requests
