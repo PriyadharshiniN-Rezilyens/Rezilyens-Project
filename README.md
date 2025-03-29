@@ -41,7 +41,7 @@ ii)Uses a weighted formula to calculate a final risk score
 
 iii)Ranks assets from most to least risky
 
-![image](https://github.com/user-attachments/assets/70a994d4-38c6-4b7e-8155-12f4dc945df6)
+![image](https://github.com/user-attachments/assets/e65fae74-2e9f-4b7b-a7ae-3085167c32ab)
 
 ### Step 5: Visualize Risk Rankings
   1. A bar chart of all asset risk scores is generated
