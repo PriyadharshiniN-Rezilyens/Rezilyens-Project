@@ -29,6 +29,8 @@ II. Constructs a heterogeneous graph using NetworkX:
 
 ![image](https://github.com/user-attachments/assets/bdddafcc-582f-4c56-80db-0c9814b2649a)
 
+For this project, I chose the Louvain clustering algorithm because it’s efficient, doesn’t require me to predefine the number of clusters, and works well with large, complex graphs like the one I built from the cybersecurity dataset. I explored other options like Spectral Clustering and Label Propagation but found that Spectral requires the number of clusters to be set in advance, and Label Propagation tends to give inconsistent results. Louvain, on the other hand, automatically detects meaningful communities by optimizing modularity, which makes it perfect for identifying related groups of assets, vulnerabilities, and threats. It also gave me clear, interpretable clusters that helped in understanding and prioritizing cyber risks within the network—exactly what I needed for this kind of analysis.
+
 ### Step 4: Calculate Risk Scores
 
 i)For each Asset, computes:
