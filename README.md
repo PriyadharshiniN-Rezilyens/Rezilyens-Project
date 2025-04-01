@@ -45,6 +45,8 @@ iii)Ranks assets from most to least risky
 
 ![image](https://github.com/user-attachments/assets/e65fae74-2e9f-4b7b-a7ae-3085167c32ab)
 
+To prioritize which assets are most at risk, I calculated a composite risk score for each one by combining both network-based and vulnerability-based insights. First, I computed degree centrality and betweenness centrality to understand how connected and strategically important an asset is within the graph, because more connected or central assets are generally more exposed. Then, I averaged the CVSS scores and exploit probabilities of vulnerabilities linked to each asset to capture how severe and exploitable those issues are. I also included the probability of being targeted by threat actors, which reflects the likelihood of a real-world attack. All of these metrics were brought together using a weighted formula to generate a final risk score. Assets were then ranked from highest to lowest risk, allowing me to clearly identify which systems (like WebApp-01 and Workstation-04) require the most immediate attention. This approach helped turn complex and interconnected cybersecurity data into clear, actionable insights.
+
 ### Step 5: Visualize Risk Rankings
   1. A bar chart of all asset risk scores is generated
   2. Top 5 risky assets are highlighted in red
